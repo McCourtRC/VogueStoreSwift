@@ -9,13 +9,17 @@
 import UIKit
 
 class IonIconBtn1: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet var view: UIView!
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        Bundle.main.loadNibNamed("IonIconBtn1", owner: self, options: nil)
+        
+        view.frame = bounds
+        self.addSubview(self.view)
     }
-    */
-
+    
 }

@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.0.0)
+  - Ionicons-Swift (2.0.2)
+  - SwiftyJSON (3.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Ionicons-Swift (from `https://github.com/tomsterritt/IoniconsSwift.git`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Ionicons-Swift:
+    :git: https://github.com/tomsterritt/IoniconsSwift.git
+
+CHECKOUT OPTIONS:
+  Ionicons-Swift:
+    :commit: 873d8b5756a1f0b3dfb89dae5d2e30f8b66218ce
+    :git: https://github.com/tomsterritt/IoniconsSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  Ionicons-Swift: 761024923c004b05e880d5d613cbbb430ab52ec6
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
+
+COCOAPODS: 0.39.0

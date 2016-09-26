@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043F96851D95F06900ECFE77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F96841D95F06900ECFE77 /* LoginViewController.swift */; };
+		043F96871D96D3AD00ECFE77 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F96861D96D3AD00ECFE77 /* LocalAuthentication.framework */; };
+		043F96891D96E9A400ECFE77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F96881D96E9A300ECFE77 /* HomeViewController.swift */; };
+		043F968B1D96ECC700ECFE77 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F968A1D96ECC700ECFE77 /* Utilities.swift */; };
+		043F96911D974F7000ECFE77 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F96901D974F7000ECFE77 /* ShopViewController.swift */; };
+		043F96931D98C03800ECFE77 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F96921D98C03800ECFE77 /* ItemModel.swift */; };
+		043F96991D99A4B200ECFE77 /* IonIconBtn2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043F96981D99A4B200ECFE77 /* IonIconBtn2.xib */; };
+		043F969B1D99A5C700ECFE77 /* IonIconBtn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F969A1D99A5C700ECFE77 /* IonIconBtn2.swift */; };
+		043F969D1D99C24300ECFE77 /* BadgeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043F969C1D99C24200ECFE77 /* BadgeButton.xib */; };
+		043F969F1D99C3C600ECFE77 /* BadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F969E1D99C3C600ECFE77 /* BadgeButton.swift */; };
 		047783EF1D95ECB000AD4B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047783EE1D95ECB000AD4B3C /* AppDelegate.swift */; };
-		047783F11D95ECB000AD4B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047783F01D95ECB000AD4B3C /* ViewController.swift */; };
 		047783F41D95ECB000AD4B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047783F21D95ECB000AD4B3C /* Main.storyboard */; };
 		047783F61D95ECB000AD4B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047783F51D95ECB000AD4B3C /* Assets.xcassets */; };
 		047783F91D95ECB000AD4B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047783F71D95ECB000AD4B3C /* LaunchScreen.storyboard */; };
+		049F5F1F1D99D57200979389 /* IonIconBtn1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F5F1E1D99D57200979389 /* IonIconBtn1.xib */; };
+		049F5F211D99D67100979389 /* IonIconBtn1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F5F201D99D67100979389 /* IonIconBtn1.swift */; };
+		6A78E70F74AE6509EFB3E899 /* Pods_VogueStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79D0A65D7E5A03696BBB7CA /* Pods_VogueStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043F96841D95F06900ECFE77 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		043F96861D96D3AD00ECFE77 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		043F96881D96E9A300ECFE77 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		043F968A1D96ECC700ECFE77 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		043F96901D974F7000ECFE77 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		043F96921D98C03800ECFE77 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		043F96981D99A4B200ECFE77 /* IonIconBtn2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IonIconBtn2.xib; sourceTree = "<group>"; };
+		043F969A1D99A5C700ECFE77 /* IonIconBtn2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IonIconBtn2.swift; sourceTree = "<group>"; };
+		043F969C1D99C24200ECFE77 /* BadgeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadgeButton.xib; sourceTree = "<group>"; };
+		043F969E1D99C3C600ECFE77 /* BadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeButton.swift; sourceTree = "<group>"; };
 		047783EB1D95ECB000AD4B3C /* VogueStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogueStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047783EE1D95ECB000AD4B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		047783F01D95ECB000AD4B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047783F31D95ECB000AD4B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047783F51D95ECB000AD4B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047783F81D95ECB000AD4B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047783FA1D95ECB000AD4B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F5F1E1D99D57200979389 /* IonIconBtn1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IonIconBtn1.xib; sourceTree = "<group>"; };
+		049F5F201D99D67100979389 /* IonIconBtn1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IonIconBtn1.swift; sourceTree = "<group>"; };
+		77D2A17FA3A63F1B455E389B /* Pods-VogueStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogueStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore.release.xcconfig"; sourceTree = "<group>"; };
+		979CB5502875EA35DD470E52 /* Pods-VogueStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogueStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore.debug.xcconfig"; sourceTree = "<group>"; };
+		A79D0A65D7E5A03696BBB7CA /* Pods_VogueStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogueStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043F96871D96D3AD00ECFE77 /* LocalAuthentication.framework in Frameworks */,
+				6A78E70F74AE6509EFB3E899 /* Pods_VogueStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +68,8 @@
 			children = (
 				047783ED1D95ECB000AD4B3C /* VogueStore */,
 				047783EC1D95ECB000AD4B3C /* Products */,
+				165E993AE4D6D3FFB2A8B82D /* Pods */,
+				FD88F113ACB392BFD1D30AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,49 @@
 			isa = PBXGroup;
 			children = (
 				047783EE1D95ECB000AD4B3C /* AppDelegate.swift */,
-				047783F01D95ECB000AD4B3C /* ViewController.swift */,
+				043F96841D95F06900ECFE77 /* LoginViewController.swift */,
+				043F96881D96E9A300ECFE77 /* HomeViewController.swift */,
+				043F96901D974F7000ECFE77 /* ShopViewController.swift */,
 				047783F21D95ECB000AD4B3C /* Main.storyboard */,
+				043F968A1D96ECC700ECFE77 /* Utilities.swift */,
+				043F96921D98C03800ECFE77 /* ItemModel.swift */,
 				047783F51D95ECB000AD4B3C /* Assets.xcassets */,
 				047783F71D95ECB000AD4B3C /* LaunchScreen.storyboard */,
 				047783FA1D95ECB000AD4B3C /* Info.plist */,
+				049F5F221D99DAF700979389 /* CustomViews */,
 			);
 			path = VogueStore;
+			sourceTree = "<group>";
+		};
+		049F5F221D99DAF700979389 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				043F969C1D99C24200ECFE77 /* BadgeButton.xib */,
+				043F969E1D99C3C600ECFE77 /* BadgeButton.swift */,
+				049F5F1E1D99D57200979389 /* IonIconBtn1.xib */,
+				049F5F201D99D67100979389 /* IonIconBtn1.swift */,
+				043F96981D99A4B200ECFE77 /* IonIconBtn2.xib */,
+				043F969A1D99A5C700ECFE77 /* IonIconBtn2.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		165E993AE4D6D3FFB2A8B82D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				979CB5502875EA35DD470E52 /* Pods-VogueStore.debug.xcconfig */,
+				77D2A17FA3A63F1B455E389B /* Pods-VogueStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD88F113ACB392BFD1D30AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043F96861D96D3AD00ECFE77 /* LocalAuthentication.framework */,
+				A79D0A65D7E5A03696BBB7CA /* Pods_VogueStore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047783FD1D95ECB000AD4B3C /* Build configuration list for PBXNativeTarget "VogueStore" */;
 			buildPhases = (
+				6599B79A6AC65FF09BAE61CD /* Check Pods Manifest.lock */,
 				047783E71D95ECAF00AD4B3C /* Sources */,
 				047783E81D95ECAF00AD4B3C /* Frameworks */,
 				047783E91D95ECAF00AD4B3C /* Resources */,
+				F49EA7A1DF9156E8348FEA37 /* Embed Pods Frameworks */,
+				13A9AF4261B0AC568604FAB2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +192,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049F5F1F1D99D57200979389 /* IonIconBtn1.xib in Resources */,
 				047783F91D95ECB000AD4B3C /* LaunchScreen.storyboard in Resources */,
+				043F96991D99A4B200ECFE77 /* IonIconBtn2.xib in Resources */,
 				047783F61D95ECB000AD4B3C /* Assets.xcassets in Resources */,
 				047783F41D95ECB000AD4B3C /* Main.storyboard in Resources */,
+				043F969D1D99C24300ECFE77 /* BadgeButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A9AF4261B0AC568604FAB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6599B79A6AC65FF09BAE61CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F49EA7A1DF9156E8348FEA37 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		047783E71D95ECAF00AD4B3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047783F11D95ECB000AD4B3C /* ViewController.swift in Sources */,
+				043F969B1D99A5C700ECFE77 /* IonIconBtn2.swift in Sources */,
+				043F96931D98C03800ECFE77 /* ItemModel.swift in Sources */,
+				043F96851D95F06900ECFE77 /* LoginViewController.swift in Sources */,
+				043F969F1D99C3C600ECFE77 /* BadgeButton.swift in Sources */,
 				047783EF1D95ECB000AD4B3C /* AppDelegate.swift in Sources */,
+				043F96911D974F7000ECFE77 /* ShopViewController.swift in Sources */,
+				043F968B1D96ECC700ECFE77 /* Utilities.swift in Sources */,
+				043F96891D96E9A400ECFE77 /* HomeViewController.swift in Sources */,
+				049F5F211D99D67100979389 /* IonIconBtn1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +385,7 @@
 		};
 		047783FE1D95ECB000AD4B3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979CB5502875EA35DD470E52 /* Pods-VogueStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VogueStore/Info.plist;
@@ -270,6 +398,7 @@
 		};
 		047783FF1D95ECB000AD4B3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D2A17FA3A63F1B455E389B /* Pods-VogueStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VogueStore/Info.plist;
@@ -299,6 +428,7 @@
 				047783FF1D95ECB000AD4B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
