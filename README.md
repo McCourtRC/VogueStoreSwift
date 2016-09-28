@@ -1,4 +1,5 @@
 # VogueStoreSwift
+Xcode 8.0, Swift 3.0
 
 Screens
    * 1-2
